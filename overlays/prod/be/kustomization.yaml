@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: scg-apply-prod
+namePrefix: prod-
+patchesStrategicMerge:
+  - ingress.yaml
+  - deployment.yaml
+  - service.yaml
+resources:
+  - ../../../base/be
+images:
+  - name: registry.scg.skku.ac.kr/scg-apply-backend
+    newTag: prod0
