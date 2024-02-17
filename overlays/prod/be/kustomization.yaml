@@ -9,5 +9,5 @@ patchesStrategicMerge:
 resources:
   - ../../../base/be
 images:
-  - name: registry.scg.skku.ac.kr/scg-apply-backend
+  - name: registry.scg.skku.ac.kr/scg-apply-be
     newTag: prod0
