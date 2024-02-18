@@ -18,6 +18,3 @@ spec:
           name: be
           ports:
             - containerPort: 8000
-          envFrom:
-           - configMapRef:
-               name: scg-apply-prod-config
