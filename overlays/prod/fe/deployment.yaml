@@ -13,11 +13,8 @@ spec:
         app.kubernetes.io/name: prod-fe
     spec:
       containers:
-        - image: registry.scg.skku.ac.kr/scg-apply-frontend
+        - image: registry.scg.skku.ac.kr/scg-apply-fe
           imagePullPolicy: Always
           name: fe
           ports:
             - containerPort: 3000
-          envFrom:
-            - configMapRef:
-                name: scg-apply-prod-config
