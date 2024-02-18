@@ -9,4 +9,4 @@ spec:
       protocol: TCP
   type: NodePort
   selector:
-    app.kubernetes.io/name: fe
+    app.kubernetes.io/name: prod-fe
