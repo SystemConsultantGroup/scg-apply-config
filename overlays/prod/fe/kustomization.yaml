@@ -10,4 +10,4 @@ resources:
   - ../../../base/fe
 images:
   - name: registry.scg.skku.ac.kr/scg-apply-fe
-    newTag: prod1
+    newTag: prod2
