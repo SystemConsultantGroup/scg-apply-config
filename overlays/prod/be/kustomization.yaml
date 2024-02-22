@@ -10,4 +10,4 @@ resources:
   - ../../../base/be
 images:
   - name: registry.scg.skku.ac.kr/scg-apply-be
-    newTag: prod2
+    newTag: prod3
