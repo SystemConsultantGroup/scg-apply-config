@@ -9,5 +9,5 @@ patchesStrategicMerge:
 resources:
   - ../../../base/fe
 images:
-  - name: registry.scg.skku.ac.kr/scg-apply-fe
-    newTag: prod12
+  - name: harbor.k8s.scg.skku.ac.kr/library/scg-apply-fe
+    newTag: prod1
