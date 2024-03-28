@@ -11,7 +11,8 @@ metadata:
     prometheus.io/path: "/metrics"
 spec:
   ports:
-    - port: 80
+    - name: default
+      port: 80
       targetPort: 8000
       protocol: TCP
   type: ClusterIP
