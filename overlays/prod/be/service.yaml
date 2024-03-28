@@ -4,6 +4,7 @@ metadata:
   name: be-service
   labels: 
     app: scg-apply-be
+    release: prometheus-stack
   annotations:
     prometheus.io/scrape: "true"
     prometheus.io/port: "8000"
