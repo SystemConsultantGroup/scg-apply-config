@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: prod-fe
     spec:
       containers:
-        - image: harbor.k8s.scg.skku.ac.kr/library/scg-apply-fe
+        - image: jcy0308/scg-apply-fe-prod  # Docker Hub로 변경
           imagePullPolicy: Always
           name: fe
           ports:
