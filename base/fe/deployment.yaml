@@ -12,10 +12,8 @@ spec:
       labels:
         app.kubernetes.io/name: fe
     spec:
-      imagePullSecrets:
-        - name: regcred
       containers:
-        - image: harbor.k8s.scg.skku.ac.kr/library/nginx
+        - image: jcy0308/scg-apply-fe-prod  # Docker Hub로 변경
           imagePullPolicy: Always
           name: fe
           ports:
