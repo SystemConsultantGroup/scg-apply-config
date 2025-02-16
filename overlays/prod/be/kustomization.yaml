@@ -5,10 +5,9 @@ namespace: scg-apply-prod
 patchesStrategicMerge:
 - ingress.yaml
 - deployment.yaml
-- secret.yaml
 - service.yaml
 - namespace.yaml
-
+#- secret.yaml
 resources:
 - ../../../base/be
 images:
