@@ -5,6 +5,7 @@ namePrefix: prod-
 patchesStrategicMerge:
   - ingress.yaml
   - deployment.yaml
+  - secret.yaml
   - service.yaml
 resources:
   - ../../../base/be
