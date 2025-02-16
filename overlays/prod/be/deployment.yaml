@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: prod-be
     spec:
       containers:
-        - image: jcy0308/scg-apply-be-prod  # Docker Hub 이미지 사용
+        - image: scgskku/scg-apply-be-prod  # Docker Hub 이미지 사용
           imagePullPolicy: Always
           name: be
           ports:
