@@ -6,10 +6,11 @@ patchesStrategicMerge:
 - ingress.yaml
 - deployment.yaml
 - service.yaml
-- namespace.yaml
-#- secret.yaml
+
 resources:
 - ../../../base/be
+- namespace.yaml
+- secret.yaml
 images:
 - name: scgskku/scg-apply-be-prod
   newTag: 771738160852dbc8d5c3ce7e27cb88f38d03d1e5
