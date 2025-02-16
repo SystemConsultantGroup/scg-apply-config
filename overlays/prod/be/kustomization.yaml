@@ -3,12 +3,12 @@ kind: Kustomization
 namespace: scg-apply-prod
 namePrefix: prod-
 patchesStrategicMerge:
-  - ingress.yaml
-  - deployment.yaml
-  - secret.yaml
-  - service.yaml
+- ingress.yaml
+- deployment.yaml
+- secret.yaml
+- service.yaml
 resources:
-  - ../../../base/be
+- ../../../base/be
 images:
-  - name: scgskku/scg-apply-be-prod  # Docker Hub로 변경
-    newTag: "newtag"  # GitHub Actions에서 이 값을 변경하도록 설정
+- name: scgskku/scg-apply-be-prod
+  newTag: 771738160852dbc8d5c3ce7e27cb88f38d03d1e5
