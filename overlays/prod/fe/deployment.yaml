@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: prod-fe
     spec:
       containers:
-        - image: jcy0308/scg-apply-fe-prod  # Docker Hub로 변경
+        - image: scgskku/scg-apply-fe-prod  # Docker Hub로 변경
           imagePullPolicy: Always
           name: fe
           ports:

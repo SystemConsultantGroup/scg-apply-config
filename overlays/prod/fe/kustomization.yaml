@@ -9,5 +9,5 @@ patchesStrategicMerge:
 resources:
   - ../../../base/fe
 images:
-  - name: jcy0308/scg-apply-fe-prod  # Docker Hub 이미지 사용
+  - name: scgskku/scg-apply-fe-prod  # Docker Hub 이미지 사용
     newTag: "newtag"  # GitHub Actions에서 이 값을 변경

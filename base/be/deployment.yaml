@@ -13,8 +13,11 @@ spec:
         app.kubernetes.io/name: be
     spec:
       containers:
-        - image: jcy0308/scg-apply-be-prod
+        - image: scgskku/scg-apply-be-prod
           imagePullPolicy: Always
           name: be
           ports:
             - containerPort: 8000
+          envFrom:
+            - secretRef:
+              name: scg-apply-secret

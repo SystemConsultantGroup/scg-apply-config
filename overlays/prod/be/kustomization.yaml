@@ -5,9 +5,10 @@ namePrefix: prod-
 patchesStrategicMerge:
   - ingress.yaml
   - deployment.yaml
+  - secret.yaml
   - service.yaml
 resources:
   - ../../../base/be
 images:
-  - name: jcy0308/scg-apply-be-prod  # Docker Hub로 변경
+  - name: scgskku/scg-apply-be-prod  # Docker Hub로 변경
     newTag: "newtag"  # GitHub Actions에서 이 값을 변경하도록 설정
