@@ -13,4 +13,4 @@ resources:
 - secret.yaml
 images:
 - name: scgskku/scg-apply-be-prod
-  newTag: f8b474b4c68d6509533308085cae0c833ccc0c18
+  newTag: 231cc74902dda6feded48d74b453fda1c6012538
