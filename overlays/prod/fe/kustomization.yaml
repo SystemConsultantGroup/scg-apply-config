@@ -10,4 +10,4 @@ resources:
 - ../../../base/fe
 images:
 - name: scgskku/scg-apply-fe-prod
-  newTag: e741fb4cd85c251375922acf8120c76abf72b768
+  newTag: 87edfa18e401cdce8c987ad0acb1f550486d0c70
